@@ -6,7 +6,7 @@ from collections import defaultdict
 from collections import Counter
 from nltk.corpus import stopwords
 
-dataset = pd.read_csv('PATH_TO_TEXT')
+dataset = pd.read_csv('lenta-ru-news_19-21_raw.csv')
 dataset.head()
 
 file_texts_all = dataset.text.values.tolist()
